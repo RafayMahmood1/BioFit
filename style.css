@@ -1,0 +1,2011 @@
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    width: 100%;
+    margin: 0;
+}
+#buyPage
+{
+    display: none;
+}
+body
+{
+    width: 100%;
+    margin: 0;
+    font-family: Roboto,Arial;
+}
+/*  Top White bar */
+.topwhiteclickbank
+{
+    text-align: center;
+    height: 25px;
+}
+.topImg img
+{
+    padding-top: 2px;
+    width: 25%;
+    height: 100%;
+}
+/* Purple Upper Textured Container */
+.upperContainer
+{
+    background :linear-gradient(rgba(90,63,124,0),rgba(90,63,124,.9)),url(https://gobiofit.com/dvideo/lib/img/bg.gif);
+    margin: 0;
+    height: 1200px;
+}
+.yellowHeading1
+{
+    text-align: center;
+    width: 60%;
+    padding-top: 1px;
+    margin-left: 20%;
+    color: rgb(255, 255, 122);
+    font-size: 45px;
+}
+.yellowHeading1 h2
+{
+    margin-top: 15px;
+}
+
+/* Video */
+
+.video
+{
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: .7rem;
+    height: 53vw;
+    width: 95%;
+}
+.video iframe
+{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.pop
+{
+    padding-top: 3%;
+}
+/* Logos */
+.logoContainer
+{
+    height: 160px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.logos
+{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.image
+{
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    filter: invert(1);
+}
+/* Purple Plain Lower Background */
+.lowerContainer
+{
+    height: 800px;
+    width: 100%;
+    background-color: #493364;
+}
+.newHeight
+{
+    height: 1800px;
+}
+.topHeading
+{
+    height: 30%;
+    width: 70%;
+    padding-top: 1px;
+    margin-left: 15%;
+}
+.topHeading h2
+{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.info
+{
+    height: 60%;
+    width: 100%;
+}
+.infoblocks
+{
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+.blockImg
+{
+    width: 100%;
+    height: 50%;
+}
+.blockText
+{
+    width: 100%;
+    height: 40%;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    color: white;
+
+}
+.blockText p
+{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 23px;
+}
+.image2
+{
+    width: 60%;
+    height: 60%;
+    margin-left: 17%;
+    margin-top: 15%;
+}
+
+/* References Container */
+.references
+{
+    height: 1000px;
+    width: 100%;
+}
+
+.refHeading
+{
+    height: 15%;
+    width: 100%;
+    padding-top: 1px;
+    text-align:  center;
+    color: #493364;
+    font-size: 30px;
+    font-weight: 100;
+}
+.refLinks
+{
+    width: 90%;
+    margin-left: 5%;
+    height: 75%;
+}
+.ref-link
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+.linkSection
+{
+    height: 90%;
+    width: 50%;
+    float:left;
+}
+.refLinks li
+{
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.refLinks li a
+{
+    color: #b0b0b0;
+    font-weight: 200;
+}
+
+/* Bottom Disclaimer */
+.bottomContainer
+{
+    height: 800px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.bottomLogoBar
+{
+    width: 70%;
+    height:25%;
+    margin-left: 15%;
+}
+.btmlogo
+{
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+.image3
+{
+    height: 70%;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.bar
+{
+    width: 70%;
+    margin-left: 15%;
+    height: 60px;
+}
+.barHeadings
+{
+    float: left;
+    width: 16.6%;
+    height: 100%;
+    color: rgb(119, 118, 118);
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+}
+.clickBank
+{
+    height: 18%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #efefef;
+    border-radius: 10px;
+}
+.leftSvg
+{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.check
+{
+    margin-left: 15%;
+    width: 80%;
+    margin-top: 15%;
+}
+.rightText
+{
+    width: 70%;
+    height: 100%;
+    float: left;
+    color: #aaa;
+
+}
+.rightText p
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.bottomContent
+{
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 5%;
+    color: #aaa;
+}
+
+/* Packages */
+.packagesContainer
+{
+    height: 45%;
+    width: 95%;
+    margin-left: 2%;
+}
+.leftRightPackage
+{
+    float: left;
+    width: 30%;
+    height: 90%;
+    border-radius: 25px;
+    border:#392750 10px solid;
+    margin-top: 3%;
+    margin-left: 2%;
+    background-color: white;
+}
+.centerPackage
+{
+    float: left;
+    width: 33%;
+    height: 98%;
+    border-radius: 25px;
+    border:#392750 10px solid;
+    margin-left: 2%;
+    background-color: white;
+
+}
+.packageTitle
+{
+    height: 10%;
+    width: 95%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #392750;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding-top: 1%;
+    text-align: center;
+    color: white;
+}
+.saving
+{
+    height: 8%;
+    width: 95%;
+    margin-left: 2%;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.saving h2
+{
+    margin-top: 0;
+}
+.picture
+{
+    height: 37%;
+    width: 95%;
+    margin-left: 2%;
+    margin-left: 20%;
+    padding-top: 5%;
+}
+.picture img
+{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    z-index: 8;
+}
+.price
+{
+    margin-left: 2%;
+    width: 95%;
+    height: 10%;
+    color: #392750;
+    padding-top: 3%;
+    font-size: 35px;
+    text-align: center;
+
+}
+.price h2
+{
+    margin-top: 0;
+}
+.buyNow
+{
+    margin-left: 2%;
+    width: 95%;
+    height: 13%;
+}
+.buyNow button
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 110px;
+    padding-top: 2%;
+    font-size: 35px;
+    border: none;
+}
+button h2
+{
+    margin-top: 0;
+}
+.shipping
+{
+    height: 10%;
+    width: 95%;
+    margin-left: 2%;
+    color: #493364;
+    text-align: center;
+    padding-top: 1%;
+}
+.discount
+{
+    height: 10%;
+    width: 95%;
+    margin-left: 2%;
+    color: #493364;
+    padding-top: 1%;
+    text-align: center;
+}
+.topHeadingItalic
+{
+    height:270px;
+    width: 100%;
+    font-size: 50px;
+    font-style: italic;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+.topHeadingItalic h2
+{
+    margin-top: 0;
+}
+u
+{
+    text-decoration-color: #493364;
+}
+
+/* Points */
+
+.points
+{
+    height: 800px;
+    width: 60%;
+    display: inline-block;
+}
+.point1
+{
+    height: 400px;
+    width: 100%;
+    float: left;
+    display: inline-block;
+
+}
+.book
+{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.book img
+{
+    width: 90%;
+}
+.circle 
+{
+    height: 70px;
+    width: 70px;
+    background-color: #493364;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 3%;
+    color: white;
+}
+.circle h2
+{
+    margin-top: 0;
+}
+.text
+{
+    width: 55%;
+    height: 70%;
+    float: left;
+}
+.textTitle
+{
+    color: #493364;
+    height: 33%;
+    width: 100%;
+    padding-top: 15%;
+    font-size: 20px;
+}
+.textTitle h2
+{
+    margin-top: 0;
+}
+.textContent
+{
+    height: 33%;
+    width: 95%;
+    font-size: 20px;
+    padding-top: 4%;
+    font-size: 1.2em;
+}
+.Prices
+{
+    height: 33%;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 2%;
+}
+.point3
+{
+    height: 600px;
+    width: 38%;
+    margin-right: 2%;
+    background-color: #f7f7f7;
+    float: right;
+    margin-top: 100px;
+    border: 5px solid #e6e6e6;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+}
+.pointMark
+{
+    height: 12%;
+    width: 100%;
+    text-align: center;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.Laptop
+{
+    height: 43%;
+    width: 100%;
+}
+.Laptop img
+{
+    width: 80%;
+    height: 100%;
+}
+.p3TextTitle
+{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #493364;
+}
+.p3TextContent
+{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+
+
+}
+.p3TextPrice
+{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+
+}
+.p3TextPrice h2, .p3TextTitle h2, .p3TextContent p
+{
+    margin-top: 0;
+    width: 80%;
+    margin-left: 10%;
+}
+/* Testimonals */
+
+.testimonails
+{
+    margin-top: 50px;
+    height: 1000px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.italicHeading
+{
+    font-size: 35px;
+    font-style: italic;
+    color: #493364;
+    text-align: center;
+    padding-top: 1%;
+}
+.blockArea
+{
+    height: 600px;
+    width: 100%;
+}
+.block
+{
+    float: left;
+    width: 28%;
+    height: 580px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 2%;
+    border: #493364 3px solid;
+    border-radius: 15px;
+    background-color: white;
+}
+.picArea
+{
+    height: 45%;
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+}
+.stars
+{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    padding-top: 4%;
+}
+.textArea
+{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    padding-left: 12%;
+    padding-top: 3%;
+    font-size: 1.2em;
+
+}
+.textArea p
+{
+    width: 90%;
+    margin-top: 0;
+}
+.name
+{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+.name h2
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #493364;
+}
+.name p
+{
+    margin-top: 0;
+    color: #474747;
+}
+/* Pulsing Button */
+.bttn
+{
+    width: 70%;
+    height: 130px;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+.pulseButton
+{
+    height: 80%;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border-bottom: 15px solid #d8aa17;
+    border-radius: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #fcc819;
+    padding: 5px 10px 5px 10px;
+    animation:  2.5s infinite ease-in-out;
+    animation-name: test;
+    font-size: 30px;
+    padding-top: 17px;
+}
+
+@keyframes test 
+{
+    0%   {transform: scale(1,1);}
+    20%  {transform: scale(1.1,1.1);}
+    40%  {transform: scale(1,1);}
+    60%  {transform: scale(1.1,1.1);}
+    100% {transform: scale(1,1);}
+}
+
+/* Founder Container */
+.founderContainer
+{
+    height: 1500px;
+    width: 100%;
+    padding-top: 2%;
+}
+.svgContainer
+{
+    height: 550px;
+    width: 90%;
+    margin-left: 5%;
+}
+.contentArea
+{
+    height: 200px;
+    width: 100%;
+    color: #493364;
+    font-size: 30px;
+    text-align: center;
+}
+.contentArea p
+{
+    margin-top: 0;
+    margin-left: 10%;
+    width: 80%;
+}
+.founderMessage
+{
+    height: 120px;
+    width: 100%;
+}
+.founderMessage h2
+{
+    text-align: center;
+    margin-top: 0;
+    font-size: 75px;
+    font-style: italic;
+}
+.message
+{
+    height: 500px;
+    width: 100%;
+}
+.leftTextContent
+{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.messageTitle
+{
+    height: 40%;
+    width: 100%;
+    font-size: 25px;
+}
+.messageTitle p
+{
+    margin-left: 25%;
+    width: 70%;
+}
+.messageSaying
+{
+    height: 30%;
+    width: 100%;
+    font-size: 25px;
+}
+.messageSaying p
+{
+    margin-left: 25%;
+    width: 70%;
+    color: #493364;
+}
+.signature img
+{
+    float: right;
+    width: 40%;
+    height: 40%;
+    padding-bottom: 10%;
+}
+.pictureFounder
+{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.pictureFounder img
+{
+    height: 100%;
+    width: 83%;
+}
+.faqSection
+{
+    height: 800px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.faqHeading
+{
+    height: 130px;
+    width: 100%;
+    color: #493364;
+    font-size: 40px;
+    font-style: italic;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.faqHeading h2
+{
+    margin-top: 0;
+}
+.faqList
+{
+    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3%;
+    position: relative;
+}
+.listItem
+{
+    width: 100%;
+    height: 12%;
+    padding-top: 2%;
+    padding-left: 4%;   
+    position: relative;
+    margin-bottom: 2%;
+}
+.arrow
+{
+    width: 15px;
+    float: left;
+    background-color: white;
+
+}
+.question
+{
+    width: 90%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    color: #493364;
+
+    font-size: 25px;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.accordion 
+{
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 95%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.accordion h2
+{
+    margin-bottom: 0;
+    color: #493364;
+    font-weight: 100;
+    margin-left: 7%;
+}
+.accordion svg
+{
+    margin-top: 0.7%;
+    margin-left: 2%;
+    color: #493364;
+} 
+  
+.panel 
+{
+    width: 95%;
+    padding: 0 18px;
+    margin-top: -5px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 10;
+    position: relative;
+}
+.active, .panel
+{
+    border: #493364 3px solid;
+}
+.active
+{
+    border-bottom: none;
+}
+.panel
+{
+    border-top: none;
+    background-color: #e6e6e6;
+}
+.question p
+{
+    margin-top: 0;
+}
+.getbioFit
+{
+    height: 1000px;
+    width: 100%;
+}
+.getHeading
+{
+    height: 200px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+.getHeading h2
+{
+    margin-top: 0;
+    width: 100%;
+    font-style: italic;
+}
+.bottles
+{
+    height: 450px;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 30px;
+}
+.bottles img
+{
+    position: absolute;
+    z-index: 5;
+    height: 370px;
+    width: 320px;
+    transform: translateX(50%);
+
+}
+.btmLine
+{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    color: #493364;
+    font-size: 30px;
+    font-weight: 620;
+}
+.btmLine p
+{
+    margin-top: 0;
+}
+.payment
+{
+    height: 100px;
+    width: 100%;
+}
+.paymentContent
+{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+}
+.contentItem
+{
+    width: 12%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.contentItem svg,.contentItem img
+{
+    height: 80%;
+    width: 80%;
+}
+.contentItem p
+{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.abc
+{
+    height: 1000px;
+}
+@media(min-width:1300px)
+{
+    .video
+    {
+        width: 1100px;
+        height: 620px;
+    }
+}
+
+@media (max-width:900px)
+{
+    .rightText p
+    {
+        font-size: 0.9em;
+    }
+}
+@media (max-width:800px)
+{
+    .rightText p
+    {
+        font-size: 0.7em;
+    }
+    .upperContainer
+    {
+        height: 1000px;
+    }
+    .references
+    {
+        height: 1000px;
+    }
+}
+
+@media (max-width:600px)
+{
+    .yellowHeading1
+    {
+        font-size: 30px;
+    }
+    .upperContainer
+    {
+        height: 1200px;
+    }
+    .infoblocks
+    {
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+    }
+    .topHeading
+    {
+        height: 15%;
+    }
+    .lowerContainer
+    {
+        height: 1500px;
+    }
+    .references
+    {
+        height: 1000px;
+    }
+    .bottomLogoBar
+    {
+        height: 15%;
+    }
+    .bar
+    {
+        width: 100%;
+        padding-left: 15%;
+        margin-left: 0;
+    }
+    .barHeadings
+    {
+        font-size: 12px;
+        width: 14%;
+    }
+    .check
+    {
+        margin-top: 40%;
+    }
+    .rightText p
+    {
+        margin-top: 7%;
+    }
+     .bottomContainer
+    {
+        height: 900px;
+    }
+    .bottomContent p
+    {
+        font-size: 0.9em;
+    }
+    .upperContainer
+    {
+        height: 800px;
+    }
+}
+@media (max-width:500px)
+{
+    .references
+    {
+        height: 1300px;
+    }
+    .upperContainer
+    {
+        height: 800px;
+    }
+    .blockText
+    {
+        padding-top: 0;
+    }
+    .blockText h2
+    {
+        margin-top: 0;
+    }
+    .picture
+    {
+        margin-left: 10%;
+        padding-left: 5%;
+    }
+}
+@media (max-width:400px)
+{
+    .yellowHeading1
+    {
+        font-size: 20px;
+    }
+    .video
+    {
+        height: 70vw;
+    }
+    .upperContainer
+    {
+        height: 800px;
+    }
+    .topHeading h2
+    {
+        font-size: 25px;
+    }
+    .linkSection
+    {
+        width: 95%;
+    }
+    .references
+    {
+        height: 1400px;
+    }
+    .refHeading
+    {
+        height: 10%;
+    }
+    .refLinks
+    {
+        height: 45%;
+    }
+    .bar
+    {
+        height: 0;
+        visibility: hidden;
+    }
+    .rightText
+    {
+        font-size: 0.8em;
+    }
+    .upperContainer
+    {
+        height: 600px;
+    }
+}
+@media (max-width:350px)
+{
+    .references
+    {
+        height: 1500px;
+    }
+    .bar
+    {
+        height: 0;
+    }
+}
+@media(min-width:1400px)
+{
+    .svgContainer
+    {
+        height: 800px;
+    }
+    .founderContainer
+    {
+        height: 1800px;
+    }
+    .pictureFounder img
+    {
+        width: 70%;
+    }
+    .bottles
+    {
+        margin-left: 30%;
+    }
+    .book img
+    {
+        width: 80%;
+    }
+}
+@media(min-width:1500px)
+{
+    .topwhiteclickbank
+    {
+        height: 35px;
+    }
+    .svgContainer
+    {
+        height: 800px;
+    }
+    .pictureFounder img
+    {
+        width: 65%;
+    }
+    .bottles
+    {
+        margin-left: 28%;
+    }
+    .book img
+    {
+        width: 70%;
+    }
+    .book
+    {
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+    .picture
+    {
+        margin-left: 25%;
+        width: 50%;
+    }
+}
+@media(min-width:1700px)
+{
+    .bottles
+    {
+        margin-left: 30%;
+    }
+    .faqSection
+    {
+        height: 900px;
+    }
+    .leftRightPackage
+    {
+        margin-top: 1.5%;
+    }
+}
+@media(min-width:1800px)
+{
+    .bottles
+    {
+        margin-left: 32%;
+    }
+    .book img
+    {
+        width: 60%;
+    }
+    .book
+    {
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+}
+@media(min-width:1900px)
+{
+    .bottles
+    {
+        margin-left: 33%;
+    }
+}
+
+@media (min-width:2000px)
+{
+    .topwhiteclickbank
+    {
+        height: 35px;
+    }
+    .check
+    {
+        margin-top: 7%;
+    }
+    .message
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .book
+    {
+        padding-left: 10%;
+    }
+    .point3
+    {
+        width: 30%;
+        margin-right: 5%;
+    }
+    .svgContainer
+    {
+        height: 700px;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .pictureFounder img
+    {
+        width: 70%;
+    }
+    .faqSection
+    {
+        height: 900px;
+    }
+    .getHeading h2
+    {
+        margin-top: 2%;
+    }
+    .bottles
+    {
+        margin-left: 30%;
+    }
+    .abc
+    {
+        height: 1100px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .topHeadingItalic
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .buyNow button
+    {
+        width: 80%;
+        margin-left: 10%;
+        height: 80%;
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .ref
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .blockArea
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .pictureFounder img
+    {
+        width: 60%;
+    }
+    .bottomContainer
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media (min-width:2000px)
+{
+    .centerPackage
+    {
+        height: 100%;
+    }
+    .centerPackage,.leftRightPackage
+    {
+        width: 28.3%;
+        margin-left: 5%;
+    }
+    .leftRightPackage
+    {
+        margin-top: 2%;
+    }
+    .packagesContainer
+    {
+        margin-left: 0;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .book img
+    {
+        width: 60%;
+    }
+    .point3
+    {
+        width: 25%;
+        height: 600px;
+    }
+    .circle
+    {
+        padding-top: 2%;
+    }
+    .block
+    {
+        width: 20%;
+        margin-left: 10%;
+        margin-right: 0;
+    }
+    .pictureFounder img
+    {
+        width: 60%;
+    }
+    .founderContainer
+    {
+        height: 1800px;
+    }
+    .getHeading
+    {
+        align-items: center;
+    }
+    .topwhiteclickbank
+    {
+        height: 55px;
+    }
+    .bar
+    {
+        margin-left: 23%;
+        margin-top: 2%;
+    }
+    .barHeadings
+    {
+        width: 12%;
+    }
+    .bottomLogoBar
+    {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .contentArea
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .faqList
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .getbioFit
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media (max-width:1000px)
+{
+    .picture img
+    {
+        width: 200px;
+        height: 200px;
+    }
+    .picture
+    {
+        margin-left: 13%;
+        padding-top: 15%;
+    }
+    .buyNow button
+    {
+        height: 80%;
+        font-size: 25px;
+        margin-top: 5%;
+    }
+    .book img
+    {
+        width: 90%;
+
+    }
+    .Laptop
+    {
+        height: 33%;
+    }
+    .p3TextPrice h2
+    {
+        margin-top: 3%;
+    }
+    .textArea p
+    {
+        width: 98%;
+    }
+    .textArea
+    {
+        padding-left: 5%;
+        font-size: 1em;
+
+    }
+    .svgContainer
+    {
+        height:400px
+    }
+    .pictureFounder img
+    {
+        height: 85%;
+    }
+    .founderMessage
+    {
+        margin-top: 3%;
+    }
+    .founderContainer
+    {
+        height: 1350px;
+    }
+    .bottles
+    {
+        margin-left: 15%;
+    }
+    .contentItem p
+    {
+        font-size: 2vw;
+        margin-top: 50%;
+    }
+    .textContent p
+    {
+        font-size: 1em;
+        margin-top: 0;
+    }
+    .topHeadingItalic
+    {
+        font-size: 30px;
+    }
+    .getHeading
+    {
+        font-size: 30px;
+    }
+    .getHeading h2
+    {
+        margin-top: 3%;
+    }
+}
+@media (max-width:900px)
+{
+    .picture img
+    {
+        transform: scale(0.8,0.8);
+    }
+    .saving
+    {
+        font-size: 3vw;
+    }
+    .picture
+    {
+        padding-top: 30%;
+        margin-left: 7%;
+    }
+}
+@media (max-width:800px)
+{
+    .picture img 
+    {
+        width: 150px;
+        height: 180px;
+    }
+    .picture
+    {
+        padding-top: 30%;
+        margin-left: 10%;
+    }
+    .picture img
+    {
+        transform: scale(0.8,0.8);
+    }
+    .saving
+    {
+        font-size: 2vw;
+    }
+    .buyNow button
+    {
+        font-size: 1.3em;
+        padding-top: 5%;
+    }
+    .Laptop img
+    {
+        height: 70%;
+    }
+    .pulseButton
+    {
+        font-size: 1.6em;
+    }
+    .founderMessage
+    {
+        margin-top: 10%;
+    }
+    .founderContainer
+    {
+        height: 1450px;
+    }
+    .pictureFounder
+    {
+        height: 80%;
+    }
+    .messageTitle, .messageSaying
+    {
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+}
+@media(max-width:700px)
+{
+    .leftRightPackage, .centerPackage
+    {
+        width: 70%;
+        margin-left: 15%;
+        height: 600px;
+    }
+    .picture
+    {
+        padding-top: 5%;
+        padding-left: 18%;
+    }
+    .buyNow button
+    {
+        padding-top: 2%;
+    }
+    .newHeight
+    {
+        height: 2800px;
+    }
+    .points
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .point3
+    {
+        width: 50%;
+        margin-left: 25%;
+        float: left;
+    }
+    .references
+    {
+        height: 1800px;
+    }
+    .block
+    {
+        width: 50%;
+        margin-left: 25%;
+        height: 500px;
+    }
+    .testimonails
+    {
+        height: 1900px;
+    }
+    .blockArea
+    {
+        height: 1550px;
+    }
+    .contentArea
+    {
+        font-size: 1.4em;
+    }
+    .pictureFounder
+    {
+        width: 40%;
+    }
+    .faqHeading
+    {
+        font-size: 2em;
+    }
+    .accordion
+    {
+        font-size: 0.8em;
+    }
+    .bottles
+    {
+        margin-left: 1%;
+    }
+    .pulseButton
+    {
+        font-size: 1.3em;
+    }
+}
+@media(max-width:600px)
+{
+    .newHeight
+    {
+        height: 2900px;
+    }
+    .point3
+    {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .accordion
+    {
+        font-size: 0.7em;
+    }
+    .bottles
+    {
+        margin-left: 5%;
+        width: 100%;
+    }
+    .bottles img
+    {
+        transform: translateX(30%);
+    }
+    .founderMessage h2
+    {
+        font-size: 1.7em;
+    }
+    .founderContainer
+    {
+        height: 1200px;
+    }
+    .message
+    {
+        height: 400px;
+    }
+    .pulseButton
+    {
+        margin-top: 10%;
+        font-size: 1em;
+        height: 70px;
+    }
+    .btmLine
+    {
+        font-size: 1.3em;
+    }
+    .contentItem p
+    {
+        font-size: 2vw;
+        margin-top: 50%;
+    }
+    .accordion
+    {
+        font-size: 1.8vw;
+    }
+    .accordion h2
+    {
+        margin-left: 10%;
+    }
+}
+@media (max-width:500px)
+{
+    .pictureFounder
+    {
+        display: none;
+    }
+    .messageTitle p
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .messageSaying p
+    {
+        margin-left: 80%;
+    }
+    .bottles img
+    {
+        transform: scale(0.5,0.5);
+    }
+    .bottles
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .topHeadingItalic
+    {
+        font-size: 1.5em;
+    }
+    .textTitle
+    {
+        font-size: 1em;
+    }
+    .Prices
+    {
+        font-size: 0.8em;
+        padding-top: 5%;
+    }
+    .circle
+    {
+        height: 50px;
+        width: 50px;
+        font-size: 1em;
+        padding-top: 3%;
+    }
+    .textContent
+    {
+        padding-top: 0;
+    }
+    .point3
+    {
+        margin-top: 0;
+    }
+    .svgContainer
+    {
+        height: 300px;
+    }
+    .founderContainer
+    {
+        height: 1000px;
+    }
+    .contentArea
+    {
+        font-size: 1em;
+    }
+}
+@media(max-width:400px)
+{
+    .yellowHeading1
+    {
+        font-size: 1.3em;
+    }
+    .picture
+    {
+        padding-left: 15%;
+        padding-top: 15%;
+    }
+    .picture img
+    {
+        height: 140px;
+        width: 120px;
+    }
+    .saving
+    {
+        font-size: 1.2em;
+    }
+    .packageTitle
+    {
+        font-size: 0.8em;
+
+    }
+    .newHeight
+    {
+        height: 2700px;
+    }
+    .book
+    {
+        padding-top: 30%;
+    }
+    .textTitle,.textContent
+    {
+        font-size: 0.8em;
+    }
+    .p3TextTitle,.p3TextContent
+    {
+        font-size: 0.8em;
+    }
+    .Prices
+    {
+        font-size: 0.6em;
+    }
+    .point1
+    {
+        height: 300px;
+    }
+    .points
+    {
+        height: 650px;
+    }
+    .references
+    {
+        height:1600px ;
+    }
+    .italicHeading
+    {
+        font-size: 1.3em;
+    }
+    .block,.point3,.leftRightPackage,.centerPackage
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .picArea img
+    {
+        margin-top: 10%;
+        height: 70%;
+        width: 50%;
+    }
+    .pulseButton
+    {
+        font-size: 3vw;
+    }
+    .svgContainer
+    {
+        height: 200px;
+    }
+    .signature img
+    {
+        margin-top: 15%;
+    }
+    .founderContainer
+    {
+        height: 900px;
+    }
+    .faqHeading
+    {
+        font-size: 7vw;
+    }
+    .faqSection
+    {
+        height: 700px;
+    }
+    .getHeading
+    {
+        font-size: 5vw;
+        height: 100px;
+    }
+    .bottles
+    {
+        margin-left: 7%;
+    }
+    .getbioFit
+    {
+        height: 800px;
+    }
+    .contentItem p
+    {
+        margin-top: 80%;
+    }
+    .bottles
+    {
+        height: 350px;
+    }
+    .Laptop img
+    {
+        height: 60%;
+    }
+    .bottomContainer
+    {
+        height: 1000px;
+    }
+}
+@media (max-width:350px)
+{
+    .messageTitle,.messageSaying
+    {
+        font-size:0.8em;
+    }
+}
+
+@media(min-width:2500px)
+{
+    .topHeadingItalic
+    {
+        padding-left: 10%;
+    }
+    .abc
+    {
+        height: 1200px;
+    }
+    .pictureFounder img
+    {
+        width: 40%;
+    }
+    .signature img
+    {
+        width: 30%;
+        height: 30%;
+    }
+    .messageTitle,.messageSaying
+    {
+        padding-left: 20%;
+    }
+    .bottles
+    {
+        margin-left: 37%;
+    }
+    .point3
+    {
+        margin-right: 10%;
+    }
+    .svgContainer
+    {
+        height: 1100px;
+    }
+    .picture
+    {
+        margin-left: 22%;
+    }
+}
+@media(min-width:2700px)
+{
+    .book img
+    {
+        width: 60%;
+        padding-left: 25%;
+        padding-top: 20%;
+    }
+    .point3
+    {
+        height: 700px;
+    }
+    .check
+    {
+        margin-top: 5%;
+    }
+}
+@media(min-width:3000px)
+{
+    .block
+    {
+        width: 20%;
+        height: 650px;
+        margin-bottom: 3%;
+    }
+    .testimonails
+    {
+        height: 1200px;
+    }
+    .svgContainer
+    {
+        height: 1300px;
+    }
+    .founderContainer
+    {
+        height: 2300px;
+    }
+    .pictureFounder img
+    {
+        width: 35%;
+    }
+    .faqSection
+    {
+        height: 1100px;
+    }
+    .bottles
+    {
+        margin-left: 39%;
+    }
+    .centerPackage,.leftRightPackage
+    {
+        width: 20%;
+        margin-left: 12%;
+    }
+    .leftRightPackage
+    {
+        margin-top: 1%;
+    }
+    .packagesContainer
+    {
+        margin-left: 0;
+    }
+}
